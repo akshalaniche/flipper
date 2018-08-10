@@ -39,6 +39,10 @@ class DictionaryPanel extends Component {
 	
 			return true
 		}
+		//For updating the dictionary even if the previous length is 0
+		// else if (this.props.dictionary.length === 0) {
+		// 	return true
+		// }
 		else{
 			return false
 		}
